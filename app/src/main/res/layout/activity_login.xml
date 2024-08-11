@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/loginbg"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextPhone1"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="Phone"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:textSize="16dp"
+
+            android:layout_marginStart="10dp"
+            android:background="@drawable/et_style"
+            />
+
+        <EditText
+            android:id="@+id/editTextPassword1"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:hint="Password"
+            android:layout_marginTop="15dp"
+            android:textSize="16dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/et_style"
+            />
+
+        <TextView
+            android:id="@+id/textforgetpass"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Forget Password"
+            android:textColor="#FF7C24"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            app:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/et_btn"
+            android:text="Login"
+            android:textStyle="bold"
+            app:backgroundTint="#F67822" />
+
+
+        <TextView
+
+            android:id="@+id/gotoregister"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Don't Have an Account? Sign Up"
+            android:layout_gravity="center"
+            android:textColor="#FF7C24"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
